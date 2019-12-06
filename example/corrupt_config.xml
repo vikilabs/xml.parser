@@ -1,0 +1,10 @@
+<!--> Don't leave any space between tags <!-->
+<sim_pin_code>"1234"/sim_pin_code>
+<sim_me_code>"2222</sim_me_code>
+<inet_apn"internet"/inet_apn>
+<inet_username>"orange"</inet_username>
+<inet_password>"orange"</inet_password>
+<inet_dns1>"8.8.8.8"</inet_dns1>
+<inet_dns2>"8.8.4.4"</inet_dns2>
+<aws_url>"https://www.aws.com"</aws_url>
+<aws_api_header>"API_KEY:123456"</aws_api_header> 
