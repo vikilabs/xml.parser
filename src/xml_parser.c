@@ -98,7 +98,7 @@ char *get_xml_tag_value(const char *xml_file, char *xml_tag)
             printf("\n");
             #endif        
 
-            if(end_index <= start_index){
+            if(end_index < start_index){
                 #ifdef XML_PARSER_DEBUG
                 printf("[ debug ] found xml tag with empty content\n");
                 #endif

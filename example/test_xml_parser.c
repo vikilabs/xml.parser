@@ -20,7 +20,11 @@ int main()
     value =  get_xml_tag_value(XML_FILE,  "<inet_dns2>"); free(value);
     value =  get_xml_tag_value(XML_FILE,  "<aws_url>"); free(value);
     value =  get_xml_tag_value(XML_FILE,  "<aws_api_header>"); free(value);
-    value =  get_xml_tag_value(XML_FILE,  "<aws_api_header>"); free(value);
+    value =  get_xml_tag_value(XML_FILE,  "<single>"); free(value);
+    value =  get_xml_tag_value(XML_FILE,  "<two>"); free(value);
+    value =  get_xml_tag_value(XML_FILE,  "<three>"); free(value);
+    value =  get_xml_tag_value(XML_FILE,  "<hundred>"); free(value);
+    value =  get_xml_tag_value(XML_FILE,  "<special_characters>"); free(value);
      
     return 0;
 }
