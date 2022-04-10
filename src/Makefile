@@ -3,7 +3,8 @@ CC = gcc
 AR = ar
 STRIP = strip
 
-TARGET =libxml_parser.a
+TARGET_PATH=../lib
+TARGET =${TARGET_PATH}/xml_parser.a
 OBJECT =xml_parser.o
 
 CP = cp
@@ -21,6 +22,7 @@ SOURCE_FILE = *.c
 #LIBS = -ldl
 
 all:
+	mkdir -p ${TARGET_PATH}
 	$(CC) -c -Wall $(DEFS) ${CFLAGS} -o $(OBJECT) $(SOURCE_FILE) $(E_LIB_SRC) $(INC1) $(INC2) $(E_INC) ${LIBS} 
 	$(AR) rcs $(TARGET) $(OBJECT)
 	$(RM) $(OBJECT)
